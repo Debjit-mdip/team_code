@@ -1,0 +1,11 @@
+streamlit
+paramiko
+fabric
+teradatasql
+xlsxwriter
+glob2
+openpyxl
+pandas
+tabulate
+tqdm
+streamlit_lottie

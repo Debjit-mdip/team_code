@@ -49,4 +49,5 @@ def read_re_env_file(env_file_path,ENV_VAR):
         print(f"Error: The file {env_file_path} was not found.")
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
+        print("Code ends here!")
  

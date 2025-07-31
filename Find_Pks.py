@@ -16,6 +16,7 @@ def extract_pks_from_bteqs(input_df, keyword="PRIMARY INDEX"):
 
         except ValueError as ve:
             extracted_objects.append([Object_list[obj_idx],"Primary key not found"])
+            print("PK is not found")
         except Exception as e:
             extracted_objects.append([Object_list[obj_idx],e])
         finally:

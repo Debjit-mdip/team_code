@@ -231,6 +231,7 @@ def fun_src_trgt_tbl(input_file,layer):
         
             lv_trgt_tbl =''
             lv_src_tbl = ''
+            test=''
             
             # If the word after insert into follow database.tablename pattern
             lv_trgt_tbl = l_each_word_remove_space[k+2].replace(';','') if check_table(l_each_word_remove_space[k+2].replace(';',''),layer) else ""
